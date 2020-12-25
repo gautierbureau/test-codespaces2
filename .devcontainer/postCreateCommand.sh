@@ -19,3 +19,4 @@ export DYNAWO_CXX11_ENABLED=YES
 export DYNAWO_THIRD_PARTY_INSTALL_DIR=/opt/dynawo/3rParty
 
 $DYNAWO_HOME/util/envDynawo.sh $@' > myEnvDynawo.sh
+chmod +x myEnvDynawo.sh
