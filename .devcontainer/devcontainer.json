@@ -1,10 +1,7 @@
 {
   "image": "dynawo/dynawo-ci:latest",
-
-	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
-  
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": [ "./.devcontainer/postCreateCommand.sh"]
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": [ "./.devcontainer/postCreateCommand.sh" ]
 }
